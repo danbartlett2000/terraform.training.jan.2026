@@ -1,0 +1,1 @@
+# terraform.training.jan.2026
