@@ -1,2 +1,2 @@
 vm-size = "t3.micro"
-vm-name = "dan-vm1 "
+vm-name = "dan-vm1"
