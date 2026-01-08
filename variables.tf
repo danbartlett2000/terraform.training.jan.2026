@@ -1,14 +1,14 @@
-variable "dan-ami" {
+variable "db-ami" {
   type    = string
   default = "ami-068c0051b15cdb816"
 }
 
-variable "dan-vm-size" {
+variable "db-vm-size" {
   type    = string
   default = "t3.micro"
 }
 
-variable "dan-vm-name" {
+variable "db-vm-name" {
   type    = string
   default = "dan-vm1"
 

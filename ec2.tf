@@ -1,8 +1,8 @@
 resource "aws_instance" "example" {
-  ami           = var.dan-ami
-  instance_type = var.dan-vm-size
+  ami           = var.db-ami
+  instance_type = var.db-vm-size
 
   tags = {
-    Name = var.dan-vm-name
+    Name = var.db-vm-name
   }
 }
