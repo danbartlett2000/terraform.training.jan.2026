@@ -4,12 +4,13 @@ variable "db-ami" {
 }
 
 variable "db-vm-size" {
-  type    = string
-  default = "t3.micro"
+  type = string
 }
 
 variable "db-vm-name" {
-  type    = string
-  default = "dan-vm1"
+  type = string
+}
 
+variable "novm" {
+  type = number
 }
